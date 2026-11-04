@@ -1,6 +1,5 @@
 {
   "name": "car_dealer_system",
-  "module": "index.ts",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

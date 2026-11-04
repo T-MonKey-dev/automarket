@@ -1,4 +1,4 @@
-# AutoMarket Coding Style & Initial Dependecy Configuration
+# AutoMarket Coding Style & Initial Dependency Configuration
 
 ## Linter
 
@@ -16,10 +16,11 @@
 - [x] Install and Configure Eslint
 - [x] Install and Configure TailwindCSS
 - [x] Install and Configure ShadcnUI
-- [ ] Configure Code rabbit for Pull request review
+- [x] Configure Code rabbit for Pull request review
 
 
 ## Summary
- - Setup a NextJS App Router project with Eslint, Tailwind CSS v4 & Shadcn UI.
- - Configured directories and path aliases. 
- - Setup code-raddit for Automatic PR review.
+
+ -Setup a NextJS App Router project with Eslint, Tailwind CSS v4 & Shadcn UI.
+ -Configured directories and path aliases.
+ -Setup code-raddit for Automatic PR review.
