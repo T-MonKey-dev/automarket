@@ -1,4 +1,4 @@
-# AutoMarket Enviroment Setup
+# AutoMarket Environment Setup
 
 ## Phase 0 : Infrastructure
 
@@ -27,9 +27,9 @@
 Infrastructure Milestone 1
 
 - [x] Dedicated Docker Compose Project
-- [x] PostgresSQL container and persistent volume
-- [x] Regis container and persistent volume
-- [x] Dedicated Docker network 
+- [x] PostgreSQL container and persistent volume
+- [x] Redis container and persistent volume
+- [x] Dedicated Docker network
 - [x] Environment Variables and protected credentials
 - [x] Container health checks
 - [x] Direct database and Redis connectivity tests
@@ -37,6 +37,6 @@ Infrastructure Milestone 1
 Remaining Work
 
 - [ ] Install and configure Prisma
-- [ ] Design the initial database schema 
+- [ ] Design the initial database schema
 - [ ] Generate and apply the initial migration
-- [ ] Verify application-to-database connectivity 
+- [ ] Verify application-to-database connectivity
