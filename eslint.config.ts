@@ -20,6 +20,7 @@ const antfuConfig = antfu({
     files: [`**/*.tsx`, `**/*.ts`],
 
 }, {
+
     rules: {
         "ts/array-type": [`error`],
         "ts/no-redeclare": [`off`],
@@ -57,7 +58,13 @@ const antfuConfig = antfu({
 export default defineConfig([
     ...await antfuConfig,
     reactHooks.configs.flat.recommended,
+    {
+        files: [`src/components/ui/**/*.tsx`],
+        rules: {
+            "react-refresh/only-export-components": [`off`],
+        },
 
+    },
     {
         ignores: [
             `dist`,
